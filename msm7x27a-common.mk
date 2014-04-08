@@ -176,8 +176,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.webview.provider=classic \
-    ro.soundrecorder.default_wav2ch=true
-
+    ro.soundrecorder.default_wav2ch=true \
+    ro.config.low_ram=true
+    
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cwm.forbid_format="/persist-lg,/mpt" \
     ro.cwm.forbid_mount="/persist-lg,/mpt" \
