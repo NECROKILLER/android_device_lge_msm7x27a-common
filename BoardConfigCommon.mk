@@ -74,6 +74,8 @@ TARGET_FORCE_CPU_UPLOAD := true
 
 USE_DEVICE_SPECIFIC_CAMERA := true
 
+TARGET_NO_INITLOGO := true
+
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_WLAN_DEVICE                := qcwcn
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
